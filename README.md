@@ -47,7 +47,7 @@ A documentação da API é gerada automaticamente pelo Swagger. Para acessá-la,
 
 ### Exemplo de Arquivo .env
 ```env
-PORT=3000
+PORT=3001
 DB_HOST=localhost
 DB_USER=seu_usuario
 DB_PASS=sua_senha
