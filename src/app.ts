@@ -1,5 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
+import swaggerSetup from './swagger';
+
 import cors from 'cors';
 import userRoutes from './routes/userRoutes';
 import taskRoutes from './routes/taskRoutes';
@@ -18,6 +20,8 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 app.use(express.json());
+
+swaggerSetup(app);
 
 app.use('/api/users', userRoutes);
 app.use('/api', taskRoutes);
