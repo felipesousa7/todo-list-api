@@ -52,5 +52,5 @@ DB_HOST=localhost
 DB_USER=seu_usuario
 DB_PASS=sua_senha
 DB_NAME=seu_banco
-JWT_SECRET=sua_chave_secreta```
+JWT_SECRET=sua_chave_secreta
 
