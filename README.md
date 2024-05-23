@@ -43,7 +43,7 @@ Esta é a API para a aplicação de Lista de Tarefas, desenvolvida com Node.js, 
 * **DELETE /tasks/{id}**: Remove tarefa existente.
 
 ### Documentação da API
-A documentação da API é gerada automaticamente pelo Swagger. Para acessá-la, inicie o servidor e abra o seguinte endereço no seu navegador:(http://localhost:3000/api-docs)
+A documentação da API é gerada automaticamente pelo Swagger. Para acessá-la, inicie o servidor e abra o seguinte endereço no seu navegador:(http://localhost:3001/api-docs)
 
 ### Exemplo de Arquivo .env
 ```env
